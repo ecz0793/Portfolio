@@ -1,5 +1,4 @@
-Groupe : Matteo Velasco
-	Etienne Crozetière
+Etienne Crozetière
 	
 gfortran projet1.f90 selec_get.c -o projet1
 ./projet1
