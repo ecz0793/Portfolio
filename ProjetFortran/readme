@@ -2,3 +2,15 @@ Etienne Crozetière
 	
 gfortran projet1.f90 selec_get.c -o projet1
 ./projet1
+
+
+The project consists of creating a Brick Breaker game developed in Fortran. The player controls a paddle that moves horizontally to bounce a ball and destroy the bricks located at the top of the screen.
+
+User Guide : 
+
+When launching the program, a first prompt asks the user to enter the number of rows for the grid, then a second prompt asks them to specify the number of columns. 
+To control the paddle, the commands are as follows: 
+Move left : key g
+Move right  : key h
+
+The 'X' bricks are standard bricks, while the '2' bricks are special bricks. 
