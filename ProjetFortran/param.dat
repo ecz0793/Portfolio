@@ -1,0 +1,3 @@
+10       ! Largeur de la raquette (dom%raq%larg)
+-1        ! Direction initiale de la balle en x (dom%bal%depl(1))
+1         ! Direction initiale de la balle en y (dom%bal%depl(2))
