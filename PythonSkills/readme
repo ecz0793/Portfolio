@@ -1,0 +1,32 @@
+# Python Skills — Timed Exam Solutions (L2 Coursework)
+
+**Author:** Etienne CRZ
+**Context:** L2 continuous-assessment exams (contrôle continu), numerical methods & scientific computing in Python
+
+## Overview
+
+This folder contains my solutions to timed, individual, in-class Python exams from my second year of university. Each file is one full exam, written from scratch under time pressure — not a polished take-home project. I obtained the top grade in the class on this coursework (CC majoré).
+
+**Exam conditions:** 2 hours, individual, closed-book (course notes only, no internet).
+
+## Contents
+
+| File | Module | Date | Topics covered |
+|---|---|---|---|
+| `Exam2h_SecondYear.py` | LU2ME103 — CC1 | 08/04/2025 | NumPy array manipulation (reshape, transpose), multi-panel Matplotlib plotting, kinematics simulation (rolling-disc trajectory vs. angle θ), debugging a broken script, code refactoring into loops/arrays, Taylor series convergence (arctan expansion, relative error vs. number of terms) |
+| `FinalExam2h_SecondYear.py` | LU2ME103 — CC2 | 21/05/2025 | Image analysis (`.npy` arrays as grayscale images, pixel-line profiles, fiber counting via `np.diff`), numerical ODE solving (Crank-Nicolson scheme for a harmonic oscillator), convergence/error analysis (error vs. time step N, log-log scaling, least-squares fit of convergence order p) |
+
+## What this shows
+
+- **NumPy:** array/image manipulation, vectorized operations, linear algebra (`np.linalg.inv`, matrix exponential-like update), finite-difference schemes.
+- **Matplotlib:** multi-subplot figures, image display (`imshow`), log/log-log plots for convergence analysis.
+- **Numerical methods:** Crank-Nicolson time integration of an ODE, convergence-order estimation by least-squares fitting.
+- **Debugging & refactoring:** fixing a broken script against expected output, replacing repeated code with loops/pre-allocated arrays.
+
+## Notes
+
+Code is left close to the exam submission (light cleanup only), to honestly reflect real timed-exam conditions.
+
+## Tools & Methods
+
+- **Python 3**, **NumPy**, **Matplotlib**
